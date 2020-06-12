@@ -266,7 +266,7 @@ function Light:Update()
 		-- Generate new content for the shadow canvas
 		love.graphics.setCanvas(self.ShadowCanvas)
 		love.graphics.setShader()
-		love.graphics.clear(255, 255, 255, 255)
+		love.graphics.clear(1, 1, 1, 1)
 		
 		-- Move all the objects so that their position local to the light are corrected
 		love.graphics.origin()
