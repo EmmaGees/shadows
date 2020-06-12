@@ -370,6 +370,20 @@ function Light:GetAngle()
 	
 end
 
+function Light:SetArc(Arc)
+
+	self.Arc = Arc
+	
+	return self
+
+end
+
+function Light:GetArc(Arc)
+
+	return self.Arc
+
+end
+
 function Light:SetPosition(x, y, z)
 	
 	self.Transform:SetLocalPosition(x, y, z)
