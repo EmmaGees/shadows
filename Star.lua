@@ -66,7 +66,7 @@ function Star:Update()
 		-- Generate new content for the shadow canvas
 		love.graphics.setCanvas(self.ShadowCanvas)
 		love.graphics.setShader()
-		love.graphics.clear(255, 255, 255, 255)
+		love.graphics.clear(1, 1, 1, 1)
 		
 		-- Move all the objects so that their position are corrected
 		love.graphics.origin()
